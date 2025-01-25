@@ -4,7 +4,8 @@
 km = float(input(' Distância percorrida, em km, pelo carro é:'))
 l = float(input('consumo do carro em litros é :'))
 consumo = km / l
+print (f'o consumo do carro é de:' ,consumo , 'km/l' )
+if consumo < 5:
+    print('o carro é dispendioso')
 if consumo > 5:
-    print('o carro é neutro')
-if consumo <5:
     print('o carro é económico')
