@@ -4,5 +4,5 @@ from math import hypot
 a = int (input ('digite o valor do cateto a:'))
 b = int (input ('digite o valor do cateto b:'))
 h = hypot (a , b )
-print ('o valor da hipotenusa é:',format (h))
+print ('o valor da hipotenusa é : ',format (h))
 
